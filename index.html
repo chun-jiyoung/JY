@@ -4,56 +4,133 @@
     <meta charset="utf-8">
     <title>Jadoo</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/main.css" media="screen" title="no title" charset="utf-8">
   </head>
   <body>
     <header>
-        <div class="top_nav container">
+      <div class="top_nav">
+        <div class="container">
             <h1 class="logo"><a href="">Jadoo</a></h1>
             <nav>
-                <ul>
+                <ul class="main_menu">
                     <li><a href="">Desitnations</a></li>
                     <li><a href="">Hotels</a></li>
                     <li><a href="">Flights</a></li>
                     <li><a href="">Bookings</a></li>
                 </ul>
-                <ul>
+                <ul class="login_links">
                     <li><a href="">Login</a></li>
                     <li><a href="">Sign up</a></li>
                 </ul>
                 <div class="dropdown">
-                    <button type="button" name="button">EN <i class="fa-solid fa-chevron-down"></i></button>
+                    <button>EN <i class="fa-solid fa-chevron-down"></i></button>
                     <ul>
-                        <li>KO</li>
-                        <li>EN</li>
-                        <li>JP</li>
+                        <li>KOREAN</li>
+                        <li>ENGLISH</li>
+                        <li>JAPANESE</li>
                     </ul>
                 </div>
             </nav>
         </div>
-        <div class="content container">
-            <div class="desc">
-                <h3>Best Destinations around the world</h3>
-                <h2>Travel, enjoy and live a new and full life</h2>
-            </div>
-            <p>Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the.  </p>
-            <div class="cta">
-                <a href="">Fint out more</a>
-                <button>
-                    <span class="icon">
-                      <i class="fa-solid fa-play"></i>
-                    </span>
+      </div>
+      <div class="content container">
+          <div class="desc">
+              <h3>Best Destinations around the world</h3>
+              <h2>Travel, <em>enjoy</em> and live a new and full life</h2>
+              <p>Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the.  </p>
+              <div class="cta">
+              <a href="">Fint out more</a>
+              <button>
+                  <span class="icon">
+                    <i class="fa-solid fa-play"></i>
+                  </span>
                     Play Demo
-              </button>
+                </button>
+              </div>
             </div>
             <img src="images/header_traveller.png" alt="traveller" />
         </div>
     </header>
     <main>
-        <section class="service">
-            <div class="container"></div>
+        <section class="services">
+            <div class="container">
+                <h3 class="sec_sub_tt txt_center">CATEGORY</h3>
+                <h2 class="sec_tt txt_center">We Offer Best Services</h2>
+                <ul class="services_list">
+                  <li>
+                      <figure>
+                          <img src="images/services_icon1.svg" alt="Calculated Weather" />
+                      </figure>
+                      <h3>Calculated Weather</h3>
+                      <p>Built Wicket longer admire do barton vanity itself do in it.</p>
+                  </li>
+                  <li>
+                    <figure>
+                        <img src="images/services_icon2.svg" alt="Best Flights" />
+                    </figure>
+                    <h3>Best Flights</h3>
+                    <p>Engrossed listening. Park gate sell they west hard for the.</p>
+                  </li>
+                  <li>
+                    <figure>
+                        <img src="images/services_icon3.svg" alt="Local Events" />
+                    </figure>
+                    <h3>Local Events</h3>
+                    <p>Barton vanity itself do in it. Preferd to men it engrossed listening. </p>
+                  </li>
+                  <li>
+                    <figure>
+                        <img src="images/services_icon4.svg" alt="Customization" />
+                    </figure>
+                    <h3>Customization</h3>
+                    <p>We deliver outsourced aviation services for military customers</p>
+                  </li>
+                </ul>
+            </div>
         </section>
-        <section class="destinations container"> </section>
+        <section class="destinations container">
+            <h3 class="sec_sub_tt txt_center">Top Selling</h3>
+            <h2 class="sec_tt txt_center">Top Destinations</h2>
+            <ul class="destinations_list">
+                <li>
+                    <figure>
+                        <img src="images/top_destinations_1.jpg" alt="Rome, Italty" />
+                        <figcaption>
+                            <h4>Rome, Italty<span class="price">?$5,42k</span></h4>
+                            <p>
+                                <i class="fa-solid fa-location-arrow"></i>
+                                10 Day Trip
+                            </p>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="images/top_destinations_2.jpg" alt="London, UK" />
+                        <figcaption>
+                            <h4>London, UK<span class="price">?$4.2k</span></h4>
+                            <p>
+                                <i class="fa-solid fa-location-arrow"></i>
+                                12 Day Trip
+                            </p>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="images/top_destinations_3.jpg" alt="Full Europe" />
+                        <figcaption>
+                            <h4>Full Europe<span class="price">$15k</span></h4>
+                            <p>
+                                <i class="fa-solid fa-location-arrow"></i>
+                                28 Day Trip
+                            </p>
+                        </figcaption>
+                    </figure>
+                </li>
+            </ul>
+         </section>
         <section class="book_a_trip container"> </section>
         <section class="testimonials container"> </section>
         <section class="partners"> </section>
